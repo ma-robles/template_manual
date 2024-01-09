@@ -1,11 +1,17 @@
 title: Manual de Usuario
 theme: minima
-author: Miguel Angel Robles R
+author:
+  name: Miguel Angel Robles R
+  email: miguel.robles@atmosfera.unam.mx
+  github:  ma-robles
+  twitter: miguelrsrn
+  instagram: mi4rob
+  
 hora: --
-repo: https://github.com/ma-robles/template_manual/
+#repo: https://github.com/ma-robles/template_manual/
 locale: "es-mx"
-twitter_username: miguelrsrn
-github_username:  ma-robles
-instagram_username: mi4rob
-email: miguel.robles@atmosfera.unam.mx
+
+
+
+
 
