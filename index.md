@@ -12,3 +12,4 @@ layout: home
 ## Partes
 A continuación se muestran las partes
 
+![pista 0](https://ma-robles.github.io/robotica_2024-1/assets/img/pista_0.jpg)
