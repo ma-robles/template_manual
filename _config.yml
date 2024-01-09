@@ -1,0 +1,12 @@
+title: Manual
+theme: minima
+author: Miguel Angel Robles R
+hora: --
+repo: https://github.com/ma-robles/template_manual/
+locale: "es-mx"
+twitter_username: miguelrsrn
+github_username:  ma-robles
+instagram_username: mi4rob
+email: miguel.robles@atmosfera.unam.mx
+header_pages:
+  - index.md
