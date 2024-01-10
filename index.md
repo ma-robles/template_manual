@@ -3,7 +3,7 @@ title: Manual Template
 author: Miguel Ángel Robles R.
 email: "miguel.robles@atmosfera.unam.mx"
 list_title: Título
-layout: home
+layout: default
 ---
 
 ## Introducción
