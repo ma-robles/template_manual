@@ -8,5 +8,5 @@ email: miguel.robles@atmosfera.unam.mx
 #repo: https://github.com/ma-robles/template_manual/
 lang: "es-mx"
 show_downloads: true
-github:
+downloads:
   pdf_url: http://example.com/download.pdf
