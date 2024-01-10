@@ -27,7 +27,7 @@
           <div class="downloads">
             <span>Descargar:</span>
             <ul>
-              <li><a href="{{ site.github.pdf_url }}" class="button">PDF</a></li>
+              <li><a href="{{ site.downloads.pdf_url }}" class="button">PDF</a></li>
             </ul>
           </div>
         {% endif %}
@@ -43,7 +43,7 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-          <p> Administrador: <a href="mailto:{{ site.email }}">{{ site.author }}</a></p>
+          <p> Administrador: <a href="mailto:{{ site.email }}">{{ site.author_name }}</a></p>
         {% endif %}
       </footer>
     </div>
