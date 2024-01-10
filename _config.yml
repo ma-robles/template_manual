@@ -1,5 +1,5 @@
 title: Manual de Usuario
-theme: jekyll-theme-hacker
+theme: jekyll-theme-leap-day
 author_name: Miguel Angel Robles R
 twitter_username: miguelrsrn
 github_username:  ma-robles
@@ -8,8 +8,3 @@ email: miguel.robles@atmosfera.unam.mx
 hora: --
 #repo: https://github.com/ma-robles/template_manual/
 locale: "es-mx"
-
-
-
-
-
