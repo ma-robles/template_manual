@@ -5,7 +5,9 @@
     <link rel="shortcut icon" type="image/svg" href=" {{ '/assets/img/dev_icon.svg' | prepend: site.baseurl }}">
 
 {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+<link rel="stylesheet" href= "{{ '/assets/css/style.css' | prepend: site.baseurl }}" >
+
+<link rel="stylesheet" href= "{{ '/assets/css/print.css' | prepend: site.baseurl }}" >
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
     {% include head-custom.html %}
@@ -19,7 +21,6 @@
 
       <div id="banner">
 
-        <a href="{{ site.github.repository_url }}" class="button fork"><strong>View On GitHub</strong></a>
         {% if site.show_downloads %}
           <div class="downloads">
             <span>Descargar:</span>
@@ -28,31 +29,37 @@
             </ul>
           </div>
         {% endif %}
-      </div><!-- end banner -->
 
-    <div class="wrapper">
-      <nav>
-        <ul>
+      <div class="div_menu">
       {%- for section in site.sections -%}
-      <li>
+      <span>
         <h3>
-          <a class="post-link" href="{{ section.url | append: '.html'  }}">
+          <a class="titles_menu" href="{{ section.url | append: '.html'  }}">
             {{ section.name }}
           </a>
         </h3>
-      </li>
+      </span>
       {%- endfor -%}
 
-        </ul>
-      </nav>
+      </div>
+
+      </div><!-- end banner -->
+
+    <div class="wrapper">
       <section>
         {{ content }}
 
       </section>
       <footer>
-        {% if site.github.is_project_page %}
-        <p> <img src="{{ '/assets/img/email.svg' | prepend: site.baseurl  }}" />  <a href="mailto:{{ site.email }}">{{ site.author_name }}</a></p>
-        {% endif %}
+        <div >
+          <h4> Info y  Contacto: </h4>
+          <div class="contacto" >
+            <img src="{{ '/assets/img/email.svg' | prepend: site.baseurl  }}" />  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </div>
+          <div class="contacto" >
+                  <img src="{{ '/assets/img/github.svg' | prepend: site.baseurl }}" /> <a href="{{ site.github.repository_url }}" > {{ site.github.repository_url | split: ".com" | last }} </a>
+          </div>
+        </div>
       </footer>
     </div>
   </body>
